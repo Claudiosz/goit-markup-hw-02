@@ -1,23 +1,35 @@
+
 body {
-    font-family: Roboto;
+    font-family: 'Roboto';
+    color: #212121;
 }
-p {color: #757575;}
+p {color: #757575;font-size: 16px;line-height: 1em;}
 ul {
     list-style: none;
     padding: 0%;
     margin: 0%;
     color: #212121;
 }
-
 a {
     text-decoration: none;
     color: black;
 }
-.header .link:hover, .header .link:focus{color: #2196F3;}
+h2{font-size: 18px;line-height:1.125em;}
+.logo{font-family: 'Raleway'; font-size: 26px;line-height: 1.625em;}
+.link:hover,.link:focus{color: #2196F3;}
+.site-nav{font-size: 14px;line-height: 0.875em;}
+.auth-link{color: #757575;font-size: 14px;line-height: 0.875em;}
 .banner{background: #2F303A;}
 .banner h1{
         color: #FFFFFF;
 }
-.button{background-color: #2196F3;color: white;}
+.banner .button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.button{cursor: pointer;}
+.page-nav .button:hover,.page-nav .button:focus{background-color: #2196F3;color: white;}
 .comands{background-color: #F5F4FA;}
 footer{background-color: #2F303A;}
+a[target]{color: #FFFFFF;}
+.portfolio-list li{border: 1px solid #EEEEEE;}

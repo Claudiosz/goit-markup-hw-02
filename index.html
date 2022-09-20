@@ -5,28 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>  
+    <header class="header">  
+        <a href="index.html"><span style="color: blue;">Web</span>Studio</a>
         <nav>
-            <h3><a href="/"><span style="color: #2196F3;">Web</span>Studio</a></h3>
-            <ul class="ul">
-                <li><a href="">Студія</a></li>
-                <li><a href="">Портфоліо</a></li>
-                <li><a href="">Контакти</a></li>
+            <ul>
+                <li><a href="index.html" class="link">Студія</a></li>
+                <li><a href="portfolio.html" class="link">Портфоліо</a></li>
+                <li><a href="" class="link">Контакти</a></li>
             </ul>
         </nav>
-        <address>
         <a href="mailto:vlad.zzavgorodnijj@gmail.com">vlad.zzavgorodnijj@gmail.com</a>
-        <a href="te:+380505096762">+380505096762</a>
-    </address>
+        <a href="tel:+380505096762">+380505096762</a>
     </header>
-    <section>
+    <section class="banner">
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button>Замовити послугу</button>
+        <button class= "button" type="button">Замовити послугу</button>
     </section>
     <section>
-        <h2>Особливості</h2>
+        <h2 style="display: none">Особливості</h2>
         <ul>
         <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -43,17 +42,18 @@
         <li>
             <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-        </li></ul>
+        </li>
+    </ul>
     </section>
-    <section>
-<h2>Чим ми займаємося</h2>
+    <section  class="function">
+<h2>Чим ми займаємося</h2><br />
 <ul>
     <li><img src="./images/box1.jpg" alt="Програмування" width="370"></li>
 <li><img src="./images/box2.jpg" alt="Створення мобільних додатків" width="370"></li>
 <li><img src="./images/box3.jpg" alt="Оформлення дизайну" width="370"></li>
 </ul>
     </section>
-    <section>
+    <section class="function">
 <h2>Наша команда</h2>
 <ul>
     <li>
@@ -76,13 +76,12 @@
 </li>
 </ul>
     </section>
-    <footer>
+    <footer class="footer">
         <span style="color: #2196F3;">Web</span>Studio
         <address>м. Київ, пр-т Лесі Українки, 26 <br />
         <a href="mailto:vlad.zzavgorodnijj@gmail.com"> vlad.zzavgorodnijj@gmail.com</a><br />
         <a href="te:+380505096762">+380505096762</a>
         </address>
-        
     </footer>
 </body>
 </html>

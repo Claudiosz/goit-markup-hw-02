@@ -3,19 +3,10 @@ body {
     font-family: 'Roboto';
     color: #212121;
 }
-p {color: #757575;font-size: 16px;line-height: 1em;}
-ul {
-    list-style: none;
-    padding: 0%;
-    margin: 0%;
-    color: #212121;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-h2{font-size: 18px;line-height:1.125em;}
+.main p {color: #757575;font-size: 16px;line-height: 1em;}
+.main h2{font-size: 18px;line-height:1.125em;}
 .logo{font-family: 'Raleway'; font-size: 26px;line-height: 1.625em;}
+.link{color: #212121;}
 .link:hover,.link:focus{color: #2196F3;}
 .auth-link {
     color: #757575;
@@ -34,6 +25,6 @@ h2{font-size: 18px;line-height:1.125em;}
 .button{cursor: pointer;}
 .page-nav .button:hover,.page-nav .button:focus{background-color: #2196F3;color: white;}
 .comands{background-color: #F5F4FA;}
-footer{background-color: #2F303A;}
-a[target]{color: #FFFFFF;}
+.footer{background-color: #2F303A;}
+.footer a[target]{color: #FFFFFF;}
 .portfolio-list li{border: 1px solid #EEEEEE;}

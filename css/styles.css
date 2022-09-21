@@ -17,8 +17,12 @@ a {
 h2{font-size: 18px;line-height:1.125em;}
 .logo{font-family: 'Raleway'; font-size: 26px;line-height: 1.625em;}
 .link:hover,.link:focus{color: #2196F3;}
+.auth-link {
+    color: #757575;
+    font-size: 14px;
+    line-height: 0.875em;
+}
 .site-nav{font-size: 14px;line-height: 0.875em;}
-.auth-link{color: #757575;font-size: 14px;line-height: 0.875em;}
 .banner{background: #2F303A;}
 .banner h1{
         color: #FFFFFF;

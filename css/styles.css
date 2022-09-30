@@ -68,7 +68,7 @@ body {
 .function .paragraph{line-height: calc(24/14);}
 .about-work-tittle{font-weight: 700;font-size: 36px;line-height: calc(42/36);text-align: center;}
 .comands{background: #F5F4FA;}
-.comands-tittle{font-weight: 700;font-size: 36px;line-height: calc(42/36);}  
+.comands-tittle{font-weight: 700;font-size: 36px;line-height: calc(42/36); text-align: center;}  
 .commands-list-tittle{font-size: 16px;font-weight: 500;line-height: calc(19/16);text-align: center;}
 .comands-work{font-size: 16px;line-height: calc(19/16);text-align: center;}
 .footer{background-color: #2F303A;}

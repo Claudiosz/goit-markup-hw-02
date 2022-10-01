@@ -5,14 +5,15 @@
 --accent4-color: #757575;
 }
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     color: var(--accent1-color);   
     background-color: var(--accent2-color);
     font-size: 14px;
     letter-spacing: 0.03em;
 }
 .list{list-style: none;}
-.link{text-decoration: none;}
+.link{text-decoration: none; letter-spacing: 0.02em;color: var(--accent1-color);}
+.link:hover:not(.logo,.address-link),.site-nav .link:focus:not(.logo,.address-link){color: var(--accent3-color)}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -26,28 +27,38 @@ body {
     margin: -1px;
 }
 .button {
+    font-weight: 500;
+    font-family: inherit;
     cursor: pointer;
     border: none;
 }
-.paragraph{color: var(--accent4-color);}
-.link:focus{line-height: calc(16/14);}
-.link:hover,.link:focus{color: var(--accent3-color);}
+.text{color: var(--accent4-color);}
+/* Logo */
 .logo {
     font-family: 'Raleway';
     font-size: 26px;
     line-height: calc(31/26);
 }
-.nav-link {
+.span
+{
+    color: var(--accent3-color);
+}
+/* Navigation */
+.site-nav{
     font-weight: 500;
     line-height: calc(16/14);
 }
+.site-nav .link.current {color: var(--accent3-color)}
 .header .contact-link {
+    color: var(--accent4-color);
     font-weight: 500;
 }
 .contact-link {
-    color: var(--accent4-color);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
     line-height: calc(16/14);
 }
+/* banner */
 .banner{background: #2F303A;}
 .banner-tittle{
     text-align: center;
@@ -64,21 +75,22 @@ body {
     line-height: calc(30/16);
     font-weight: 700;
 }
-.function-tittle{line-height: calc(16/14);text-transform: uppercase;font-weight: 700;}
-.function .paragraph{line-height: calc(24/14);}
-.about-work-tittle{font-weight: 700;font-size: 36px;line-height: calc(42/36);text-align: center;}
-.comands{background: #F5F4FA;}
-.comands-tittle{font-weight: 700;font-size: 36px;line-height: calc(42/36); text-align: center;}  
-.commands-list-tittle{font-size: 16px;font-weight: 500;line-height: calc(19/16);text-align: center;}
+.section-tittle{font-size: 36px;}
+/* function */
+.function-tittle{line-height: calc(16/14);text-transform: uppercase;font-size: 14px;}
+.function .text{line-height: calc(24/14);}
+/* About-work */
+.about-work-tittle,.comands-tittle{font-size: 36px;line-height: calc(42/36);text-align: center;}
+/* Commands */
+.comands{background: #F5F4FA;} 
+.commands-tittle{font-size: 16px;font-weight: 500;line-height: calc(19/16);text-align: center;}
 .comands-work{font-size: 16px;line-height: calc(19/16);text-align: center;}
+/* Footer */
 .footer{background-color: #2F303A;}
-.address-link{line-height: calc(24/14);color: var(--accent2-color)}
+.address-link{line-height: calc(24/14);color: var(--accent2-color);font-weight: 400;}
 .footer .logo{color: var(--accent2-color);font-weight: 700;}
 .address{font-style: normal;}
-.span
-{
-    color: var(--accent3-color);
-}
+/* Portfolio navigation */
 .page-nav .button:hover,
 .page-nav .button:focus {
     background-color: var(--accent3-color);
@@ -89,6 +101,7 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
-.portfolio-list-tittle{font-size: 18px; line-height: calc(36/18);font-weight: 700;}
-.portfolio-list .paragraph{font-size: 16px;line-height: calc(30/16);}
+/* Section portfolio */
+.portfolio-tittle{font-size: 18px; line-height: calc(36/18);letter-spacing: 0.06em;}
+.portfolio-list .text{font-size: 16px;line-height: calc(30/16);}
 
